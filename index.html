@@ -1,0 +1,171 @@
+Here's the HTML code for your Dompaid pitch deck:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dompaid - Financial Inclusion for Indonesia's Unbanked</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Slide Navigation -->
+        <div class="slide-nav">
+            <button class="nav-btn prev-btn" onclick="prevSlide()">←</button>
+            <div class="slide-indicator">
+                <span class="current-slide">1</span>/<span class="total-slides">8</span>
+            </div>
+            <button class="nav-btn next-btn" onclick="nextSlide()">→</button>
+        </div>
+
+        <!-- Slides -->
+        <div class="slides">
+            <!-- Slide 1: Hook -->
+            <section class="slide active" id="hook">
+                <div class="slide-content">
+                    <h1>Dompaid</h1>
+                    <h2>Bridging Indonesia's Cash-to-Digital Divide</h2>
+                    <div class="vision-statement">
+                        <p>"To empower Indonesia's unbanked population by transforming trusted local warungs into gateways for seamless, offline-first digital financial inclusion."</p>
+                    </div>
+                    <div class="key-stats">
+                        <div class="stat">
+                            <span class="number">66M</span>
+                            <span class="label">Unbanked Indonesians</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">70%</span>
+                            <span class="label">Cash Transactions</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">3.7M</span>
+                            <span class="label">Warungs Nationwide</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 2: Problem -->
+            <section class="slide" id="problem">
+                <div class="slide-content">
+                    <h2>The Problem</h2>
+                    <div class="problem-container">
+                        <div class="problem-item">
+                            <h3>Financial Exclusion</h3>
+                            <p>66 million Indonesians remain unbanked due to distrust in formal banking and low digital literacy (World Bank, 2021).</p>
+                        </div>
+                        <div class="problem-item">
+                            <h3>Technology Barriers</h3>
+                            <p>Existing solutions require smartphones and stable internet - unavailable to 41% of rural Indonesians (GSMA, 2022).</p>
+                        </div>
+                        <div class="problem-item">
+                            <h3>Cash Dominance</h3>
+                            <p>70% of transactions are still cash-based, limiting access to digital economy (Bank Indonesia, 2023).</p>
+                        </div>
+                    </div>
+                    <div class="quote">
+                        <p>"Traditional digital wallets fail to serve low-income and elderly populations due to technology requirements."</p>
+                        <cite>- GSMA, 2022</cite>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: Solution -->
+            <section class="slide" id="solution">
+                <div class="slide-content">
+                    <h2>Our Solution</h2>
+                    <div class="solution-diagram">
+                        <div class="solution-step">
+                            <div class="step-number">1</div>
+                            <p>User deposits cash at trusted warung</p>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="solution-step">
+                            <div class="step-number">2</div>
+                            <p>Warung converts cash to digital balance on DomPay NFC card</p>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="solution-step">
+                            <div class="step-number">3</div>
+                            <p>User taps to pay at any QRIS merchant - no smartphone or internet needed</p>
+                        </div>
+                    </div>
+                    <div class="key-perks">
+                        <h3>Key Differentiators</h3>
+                        <ul>
+                            <li>Offline-first NFC card works without internet</li>
+                            <li>Leverages existing trust in warungs</li>
+                            <li>No bank account or smartphone required</li>
+                            <li>Full QRIS interoperability</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Product -->
+            <section class="slide" id="product">
+                <div class="slide-content">
+                    <h2>Product Features</h2>
+                    <div class="product-features">
+                        <div class="feature">
+                            <h3>Warung-as-a-Branch</h3>
+                            <ul>
+                                <li>5,000+ warungs as cash-in points</li>
+                                <li>Instant cash-to-digital conversion</li>
+                                <li>Warungs earn 1% commission</li>
+                            </ul>
+                        </div>
+                        <div class="feature">
+                            <h3>DomPay NFC Card</h3>
+                            <ul>
+                                <li>Offline tap-to-pay functionality</li>
+                                <li>No smartphone required</li>
+                                <li>Secure NFC encryption</li>
+                            </ul>
+                        </div>
+                        <div class="feature">
+                            <h3>QRIS Integration</h3>
+                            <ul>
+                                <li>Works at all QRIS merchants</li>
+                                <li>Nationwide interoperability</li>
+                                <li>Government-backed standard</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="competitive-edge">
+                        <h3>Competitive Advantage</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Solution</th>
+                                    <th>GoPay</th>
+                                    <th>DANA</th>
+                                    <th>Dompaid</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Works Offline</td>
+                                    <td>✗</td>
+                                    <td>✗</td>
+                                    <td>✓</td>
+                                </tr>
+                                <tr>
+                                    <td>No Smartphone Needed</td>
+                                    <td>✗</td>
+                                    <td>✗</td>
+                                    <td>✓</td>
+                                </tr>
+                                <tr>
+                                    <td>Warung Cash-In Points</td>
+                                    <td>Limited</td>
+                                    <td>Limited</td>
+                                    <td>5,000+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
